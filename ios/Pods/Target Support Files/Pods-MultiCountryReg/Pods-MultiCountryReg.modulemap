@@ -1,0 +1,6 @@
+module Pods_MultiCountryReg {
+  umbrella header "Pods-MultiCountryReg-umbrella.h"
+
+  export *
+  module * { export * }
+}

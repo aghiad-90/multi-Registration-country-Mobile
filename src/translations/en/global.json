@@ -1,0 +1,44 @@
+{
+    "global": {
+      "selectLanguage": "Select Language",
+      "next": "Next",
+      "register": "Register",
+      "countrySelect": "Press on the flag to choose your country",
+      "ok": "Ok",
+      "no": "No",
+      "english": "English",
+      "arabic": "العربية",
+      "indian": "भारतीय",
+      "spanish": "Español"
+    },
+    "prelogin": {
+      "welcome": "Welcome to the MultiCountries Registration App",
+      "regisgterTitle": "Registeration",
+      "haveAlreadyAccount": "if you already have an account",
+      "login": "Login",
+      "userName": "User Name",
+      "password": "Password",
+      "LoginTitle": "Sign In",
+      "signupSuccess" : "User account created successfully",
+      "userNameused" : "That username is already in use!",
+      "checkusername" : "something went wrong",
+      "userInvalid" : "something went wrong",
+      "validation": {
+        "userName1": "the username should be at least 5 characters",
+        "userName2": "the username should be at least 5 characters",
+        "userName3": "the username should be at least 6 characters",
+        "userName4": "username should  not have any numbers",
+        "psw" : "the password should be at least 6 characters",
+        "required" : "this is required",
+        "lettersOnly" : "username should  not have any numbers",
+        "firstChaIsLetter" : "username should start with letter"
+      }
+    },
+    "postlogin": {
+      "welcome": "Welcome Back",
+      "signout": "Are you sure you want to sign out?",
+      "dashboard": "Dashboard",
+      "logout" : "Sign out"
+    }
+  }
+  

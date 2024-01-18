@@ -1,0 +1,43 @@
+{
+    "global": {
+      "selectLanguage": "Seleccione el idioma",
+      "next": "próxima",
+      "register": "Registro",
+      "countrySelect": "Pulsa sobre la bandera para elegir tu país",
+      "ok": "De acuerdo",
+      "no": "No",
+      "english": "English",
+      "arabic": "العربية",
+      "indian": "भारतीय",
+      "spanish": "Español"
+    },
+    "prelogin": {
+      "welcome": "Bienvenido a la aplicación de registro de varios países",
+      "regisgterTitle": "Registro",
+      "haveAlreadyAccount": "si ya tienes una cuenta",
+      "login": "Acceso",
+      "userName": "Nombre de usuario",
+      "password": "Contraseña",
+      "LoginTitle": "Iniciar sesión",
+      "signupSuccess" : "Cuenta de usuario creada exitosamente",
+      "userNameused" : "¡Ese nombre de usuario ya está en uso!",
+      "checkusername" : "algo salió mal",
+      "userInvalid" : "algo salió mal",
+      "validation": {
+        "userName1": "el nombre de usuario debe tener al menos 5 caracteres",
+        "userName2": "el nombre de usuario debe tener al menos 5 caracteres",
+        "userName3": "el nombre de usuario debe tener al menos 6 caracteres",
+        "userName4": "el nombre de usuario no debe tener ningún número",
+        "psw" : "la contraseña debe tener al menos 6 caracteres",
+        "required" : "this is required",
+        "lettersOnly" : "el nombre de usuario no debe tener ningún número",
+        "firstChaIsLetter" : "el nombre de usuario debe comenzar con la letra"
+      }
+    },
+    "postlogin": {
+      "welcome": "Bienvenido de nuevo",
+      "signout": "¿Estás seguro de que quieres cerrar sesión?",
+      "dashboard": "Panel",
+      "logout" : "desconectar"
+    }
+  }

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1090027658890",
+    "project_id": "multicountryreg",
+    "storage_bucket": "multicountryreg.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1090027658890:android:2151d521e7986411dc9773",
+        "android_client_info": {
+          "package_name": "com.multicountryreg"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyClkO7vnNg99golFVzILVjgU2qTZZxZJnY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
