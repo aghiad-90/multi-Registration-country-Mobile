@@ -1,8 +1,14 @@
 import messaging from '@react-native-firebase/messaging';
+import {PermissionsAndroid, Platform} from 'react-native';
 
 export async function requestUserPermission() {
   let granted = false;
   const authStatus = await messaging().requestPermission();
+
+  if(Platform.OS === 'android') {
+    // this is specific to Api 33 and above
+    PermissionsAndroid.request(PermissionsAndroid.PERMISSIONS.POST_NOTIFICATIONS)
+  }
   const enabled =
     authStatus === messaging.AuthorizationStatus.AUTHORIZED ||
     authStatus === messaging.AuthorizationStatus.PROVISIONAL;

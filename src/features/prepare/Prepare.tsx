@@ -6,6 +6,8 @@ import * as Actions from './actions';
 import {DefaultTheme, ThemeProvider} from 'react-native-paper';
 import {getSelectedTheme} from '../../themes/handlers';
 import {requestUserPermission, registerForPushNotifications} from '../../modules/pushNotifications'
+import { Alert } from 'react-native';
+import messaging from '@react-native-firebase/messaging';
 
 const Prepare = ({children}: any) => {
   const dispatch = useDispatch();
@@ -39,6 +41,16 @@ const Prepare = ({children}: any) => {
       registerForPushNotifications()
     }
   }
+
+  useEffect(() => {
+    // this is for testing the push notifications, 
+    // since it will not show the proper notifications on the emulator or simulator
+    const unsubscribe = messaging().onMessage(async remoteMessage => {
+      Alert.alert('A new FCM message arrived!', JSON.stringify(remoteMessage));
+    });
+
+    return unsubscribe;
+  }, []);
 
   useEffect(() => {
     // if there is no Language stored in the App
